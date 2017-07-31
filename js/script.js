@@ -23,3 +23,7 @@ var HomeConfig = function($mdThemingProvider) {
 };
 PeaceMakerApp.controller("HomeController", HomeController)
     .config(HomeConfig);
+
+var LoginController = function($scope, $timeout){
+
+};
